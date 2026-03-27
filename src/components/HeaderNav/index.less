@@ -1,0 +1,32 @@
+.header__nav {
+  width: fit-content;
+  margin: 0 auto 36px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fefefe;
+  border: 1px solid #dfe3e8;
+  padding: 6px;
+  border-radius: 999px;
+}
+
+.header__navItem {
+  text-decoration: none;
+  color: #111827;
+  font-size: 13px;
+  padding: 7px 12px;
+  border-radius: 999px;
+}
+
+.header__navItem--active {
+  background: #111827;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header__nav {
+    margin-bottom: 26px;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+}
